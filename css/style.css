@@ -215,7 +215,7 @@ main {
     clip-path: polygon(0 0,100% 5%,100% 90%,0 100%);
 }
 #skil .sub-ttl {
-    margin: 50px 0 30px;
+    margin: 0 auto 30px;
 }
 .skil-item {
     max-height: none;
@@ -234,6 +234,10 @@ main {
 }
 .skil-item .img {
     border: none;
+    margin-bottom: 30px;
+}
+.last-img {
+    margin-bottom: 30px;
 }
 #skil .flex {
     justify-content: space-around;
@@ -241,17 +245,8 @@ main {
 .study-skil {
     margin-top: 30px;
 }
-.img {
-    display: flex;
-    justify-content: center;
-}
 .skil-item_center-text {
     font-style: 16px;
-}
-/* アイコンクレジット表記 */
-.credit {
-    font-size: 14px;
-    padding: 10px 0;
 }
 
 /* profile */
@@ -325,8 +320,13 @@ textarea {
 .footer-text {
     font-size: 18px;
 }
+/* アイコンクレジット表記 */
+.credit {
+    font-size: 14px;
+    padding: 10px 0;
+}
 
-/* --------------- work.html-------------------- */
+/* work.html----------------------------- */
 .work_main > .container {
     width: 60%;
     max-width: 700px;
@@ -406,7 +406,7 @@ td {
 
     /* work */
     .sub-ttl {
-        font-size: 1.2rem;
+        font-size: 22rem;
         margin-top: 0;
     }
     #work .flex {
@@ -461,7 +461,7 @@ td {
         text-align: center;
     }
 
-    /* --------------- work.html-------------------- */
+    /* work.html ----------------------------- */
     .work_main > .container {
         width: 80%;
     }
@@ -596,7 +596,7 @@ td {
         font-size: 1.8rem;
     }
 
-    /* --------------- work.html-------------------- */
+    /* work.html ----------------------------- */
     .work_main {
         padding: 0;
         margin: 90px 0;
