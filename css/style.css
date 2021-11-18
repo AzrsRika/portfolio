@@ -52,7 +52,7 @@ main {
     position: relative;
     display: inline-block;
     padding: 20px 30px;
-    margin-top: 90px;
+    margin-top: 70px;
     width: 300px;
     height: 70px;
     text-align: center;
@@ -74,6 +74,9 @@ main {
     font-weight: 900;
     content: '\f105';
     font-family: 'Font Awesome 5 Free';
+}
+.nav-list a:hover {
+    opacity: .8;
 }
 /* TOPへ戻るボタン */
 #page-top {
@@ -283,7 +286,7 @@ main {
     font-size: 20px;
 }
 form {
-    margin: 80px auto;
+    margin: 80px auto 0;
     max-width: 450px;
 }
 #contact label {
@@ -406,7 +409,6 @@ td {
 
     /* work */
     .sub-ttl {
-        font-size: 22rem;
         margin-top: 0;
     }
     #work .flex {
@@ -479,7 +481,7 @@ td {
 }
 
 /* SP */
-@media(max-width: 600px) {
+@media(max-width: 700px) {
     /* レイアウト */
     .container {
         max-width: none;
@@ -488,7 +490,17 @@ td {
         display: block;
     }
     .top section {
-        padding: 90px 0;
+        padding: 80px 0;
+    }
+    .ttl {
+        margin-bottom: 50px;
+    }
+    /* フォントサイズ */
+    .en {
+        font-size: 40px;
+    }
+    .jp {
+        font-size: 14px;
     }
     /* ヘッダー */
     .logo {
@@ -550,8 +562,8 @@ td {
     }
     .skil-item {
         width: 100%;
-        padding: 70px 30px;
-        margin: 50px 0;
+        padding: 40px 20px;
+        margin: 30px auto;
     }
     .btn {
         margin-top: 40px;
@@ -574,6 +586,7 @@ td {
         margin: 0 auto;
     }
     #contact .center-text {
+        font-size: 16px;
         text-align: start;
     }
     #contact label {
@@ -585,6 +598,9 @@ td {
     }
     input[type="text"], input[type="email"],textarea {
         width: 100%;
+    }
+    form {
+        margin-top: 30px;
     }
     /* トップに戻るボタン */
     #page-top,
