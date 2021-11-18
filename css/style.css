@@ -29,15 +29,15 @@ main {
 .en {
     display : block;
     font-family: 'STIX Two Text', serif;
-    font-size: 4rem;
+    font-size: 60px;
 }
 .jp {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
 }
 .sub-ttl {
     display: block;
-    font-size: 1.5rem;
+    font-size: 24px;
     margin: 30px 0 20px;
 }
 .left-text {
@@ -97,7 +97,7 @@ main {
     font-family: 'Font Awesome 5 Free';
     content: '\f102';
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 32px;
     color: #fff;
     top: 50%;
     left: 50%;
@@ -118,7 +118,7 @@ main {
 }
 .logo {
     font-family: 'Style Script', cursive;
-    font-size: 35px;
+    font-size: 36px;
     margin-right: auto;
 }
 .nav-list {
@@ -222,6 +222,16 @@ main {
     background-color: #fff;
     padding: 70px 30px;
 }
+.skil-item_flex {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skil-item_flex .item {
+    display: flex;
+}
 .skil-item img {
     width: 90px;
     height: auto;
@@ -241,7 +251,7 @@ main {
 }
 /* アイコンクレジット表記 */
 .credit {
-    font-size: .7rem;
+    font-size: 14px;
     padding: 10px 0;
 }
 
@@ -265,7 +275,7 @@ main {
     margin-bottom: 20px;
 }
 .name-kannji {
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 
 /* contact */
@@ -276,7 +286,7 @@ main {
 }
 .center-text {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 20px;
 }
 form {
     margin: 80px auto;
