@@ -214,6 +214,9 @@ main {
     -webkit-clip-path: polygon(0 0,100% 5%,100% 90%,0 100%);
     clip-path: polygon(0 0,100% 5%,100% 90%,0 100%);
 }
+#skil .sub-ttl {
+    margin: 50px 0 30px;
+}
 .skil-item {
     max-height: none;
     min-height: 560px;
@@ -241,6 +244,9 @@ main {
 .img {
     display: flex;
     justify-content: center;
+}
+.skil-item_center-text {
+    font-style: 16px;
 }
 /* アイコンクレジット表記 */
 .credit {
