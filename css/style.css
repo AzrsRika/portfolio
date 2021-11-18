@@ -220,17 +220,10 @@ main {
     width: 30%;
     min-width: 300px;
     background-color: #fff;
-    padding: 70px 30px;
+    padding: 60px 30px;
 }
-.skil-item_flex {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.skil-item_flex .item {
-    display: flex;
+.item + .item {
+    margin-top: 10px;
 }
 .skil-item img {
     width: 90px;
@@ -322,7 +315,9 @@ textarea {
     color: #fff;
     padding: 30px 0;
     text-align: center;
-    font-size: 1rem;
+}
+.footer-text {
+    font-size: 18px;
 }
 
 /* --------------- work.html-------------------- */
@@ -467,7 +462,7 @@ td {
     .work_item img {
         width: 100%;
     }
-        th {
+    th {
         display: block;
         width: 100px;
     }
@@ -478,7 +473,7 @@ td {
 }
 
 /* SP */
-@media(max-width: 767px) {
+@media(max-width: 600px) {
     /* レイアウト */
     .container {
         max-width: none;
