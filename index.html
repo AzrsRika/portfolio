@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <!-- ファビコン -->
+        <link rel="icon" type="image/png" href="img/favicon_seal.png">
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Style+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet">
+        <!-- FontAwesome -->
+        <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    </head>
+
+    <body class="top">
+        <!-- ヘッダー -->
+        <header class="header" id="header">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Rika's Portfolio</a></h1>
+                <nav class="header-nav">
+                    <ul class="nav-list">
+                        <li><a href="#work">Works</a></li>
+                        <li><a href="#skil">Skill</a></li>
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a class="btn-ico" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- SP,タブレット ヘッダー -->
+                <nav class="sp-header-nav">
+                    <button class="btn-menu">Menu</button>
+                    <ul class="sp-nav-list">
+                        <li><a href="#work">Works</a></li>
+                        <li><a href="#skil">Skill</a></li>
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- メイン -->
+        <main>
+            <!-- 作品 -->
+            <section id="work">
+                <div class="container">
+                    <h2 class="ttl">
+                        <span class="en">Works</span>
+                        <span class="jp">制作実績</span>
+                    </h2>
+                    <div class="flex">
+                        <div class="work-items">
+                            <a href="https://azrsrika.github.io/aoi-coffee/">
+                                <div class="img">
+                                    <img src="img/cafe-top.png" alt="蒼井珈琲">
+                                </div>
+                                <div class="text-item">
+                                    <p class="sub-ttl">蒼井珈琲</p>
+                                    <span>(架空のカフェのWebサイト)</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work-items">
+                            <a href="https://azrsrika.github.io/miraihouse/">
+                                <div class="img">
+                                    <img src="img/house.png" alt="未来住宅株式会社">
+                                </div>
+                                <div class="text-item">
+                                    <p class="sub-ttl">未来住宅株式会社</p>
+                                    <span>(架空のコーポレートサイト)</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work-items">
+                            <a href="https://azrsrika.github.io/portfolio/">
+                                <div class="img">
+                                    <img src="img/portfolio.png" alt="ポートフォリオサイト">
+                                </div>
+                                <div class="text-item">
+                                    <p class="sub-ttl">ポートフォリオサイト</p>
+                                    <span>(こちらのWebサイト)</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work-items">
+                            <a href="https://azrsrika.github.io/omikuji/">
+                                <div class="img">
+                                    <img src="img/omikuji.png" alt="おみくじ">
+                                </div>
+                                <div class="text-item">
+                                    <p class="sub-ttl">あざらしちゃんおみくじ</p>
+                                    <span>(おみくじゲーム)</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div> <!-- .flex END -->
+                    <a class="btn work-btn" href="work.html">作品一覧を見る</a>
+                </div> <!-- .container END -->
+            </section>
+
+            <!-- スキル -->
+            <section id="skil">
+                <div class="container">
+                    <h2 class="ttl">
+                        <span class="en">Skil</span>
+                        <span class="jp">スキル</span>
+                    </h2>
+                    <div class="flex">
+                        <div class="skil-item">
+                            <div class="img">
+                                <img src="img/html.svg" alt="HTML">
+                                <img src="img/css.svg" alt="CSS">
+                            </div>
+                            <!-- クレジット表記 -->
+                            <div class="credit">
+                                <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            </div>
+                            <p class="sub-ttl">HTML5/CSS3</p>
+                            <p class="left-text">シングルカラム、2カラムのシンプルな構成のWebページや、CSSグリッドを使用したタイル型のレイアウトのWebページの作成、レスポンシブデザインの実装が可能です。
+                                現在の課題は、命名規則に乗っ取ったクラス名で保守性の高いコードが書けるようになることだと考えており、現在代表的な命名規則について学習中です。
+                            </p>
+                        </div>
+                        <div class="skil-item">
+                            <img src="img/xd.svg" alt="AdobeXD">
+                            <!-- クレジット表記 -->
+                            <div class="credit">
+                                <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            </div>
+                            <p class="sub-ttl">AdobeXD</p>
+                            <p class="left-text">
+                                XDはワイヤーフレームからデザインカンプを作成する一通りの流れを学習し、その後自分のWebサイトを作成する際にもXDを使用しワイヤーフレームを作成しておりました。
+                                コーディングを意識したデザインを制作するスキルがまだ無いため、今後はデザインの学習を並行して進めていきます。
+                            </p>
+                        </div>
+                        <div class="skil-item">
+                            <div class="img">
+                                <img src="img/js.svg" alt="JavaScript">
+                            </div>
+                            <!-- クレジット表記 -->
+                            <div class="credit">
+                                <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>                        </div>
+                            <p class="sub-ttl">JavaScript</p>
+                            <p class="left-text">JavaScriptは、if文を使った条件分岐や画像やテキストの取得・変更などを使用した簡単なおみくじゲーム等の制作が可能です。
+                            次回の自主制作では、より工程の多いクイズゲームを制作してみたいと思っており、現在も学習を進めています。
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 学習中スキル -->
+                    <div class="flex study-skil">
+                        <div class="skil-item">
+                            <div class="img">
+                                <img src="img/sass.png" alt="Sass">
+                            </div>
+                            <!-- クレジット表記 -->
+                            <div class="credit">
+                                <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>                            </div>
+                            <p class="sub-ttl">Sass(学習中)</p>
+                            <p class="left-text">
+                                Scss記法の基本的な記述方法を学びました。
+                                記述方法に慣れるために、これからSassを使用した自主制作を進める予定です。
+                            </p>
+                        </div>
+                        <div class="skil-item">
+                            <div class="img">
+                                <img src="img/git.png" alt="Git">
+                                <img src="img/github.png" alt="GitHub">
+                            </div>
+                            <!-- クレジット表記 -->
+                            <div class="credit">
+                                <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            </div>
+                            <p class="sub-ttl">Git/GitHub(学習中)</p>
+                            <p class="left-text">GitはProgateで基礎を学習し、共同開発においてのGitの役割と一連の流れを少し理解した程度です。<br>
+                                GitHubは、Webサイトを公開する手順を動画で学び自分のサイトを公開する際に使用しました。その他の機能はまだ学習途中です。
+                            </p>
+                        </div>
+
+                        <div class="skil-item">
+                            <img src="img/photoshop.svg" alt="Photoshop">
+                            <!-- クレジット表記 -->
+                            <div class="credit">
+                                <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            </div>
+                            <p class="sub-ttl">Photoshop(学習中)</p>
+                            <p class="left-text">
+                                これまでコーディングを中心に学習を進めてきたため、現在Photoshopは実際の使用経験はなく公式の動画を見て基本操作を学んだのみです。
+                                まずは良く使用する操作から覚えていきたいと思っております。
+                            </p>
+                        </div>
+                    </div>　<!-- .flex END -->               
+                </div> <!-- .container END -->
+            </section>
+
+            <!-- プロフィール -->
+            <section id="profile">
+                <div class="container">
+                    <h2 class="ttl">
+                        <span class="en">Profile</span>
+                        <span class="jp">自己紹介</span>
+                    </h2>
+                    <div class="prof-frex">
+                        <div class="prof-img-area">
+                            <img src="img/IMG_2408.JPG" alt="プロフィール画像">
+                        </div>
+                        <div class="prof-text-area">
+                            <div class="name">
+                                <p class="left-text name-kana">かんの　りか</p>
+                                <p class="left-text name-kannji">菅野　理香</p>
+                            </div>
+                            <p class="left-text prof-contents">岩手県盛岡市出身。<br>
+                            仙台の大学を卒業後、盛岡の建設会社に営業事務として一年間勤務。退職後、地元のモデル事務所に所属し約10か月間活動。
+                            その後、24歳で大学時代を過ごした仙台で美容部員として約4年半化粧品のカウンセリング販売、メイクサービスに携わる。<br>
+                            30歳を前に今後のキャリアを見つめ直した時に、これからは技術を身に着けてスキルアップしていきたいと考えるようになり、Web制作に興味を持つ。
+                            本格的にWeb制作を仕事にするために、2021年6月に退職後、独学で学習を開始し現在に至る。<br>
+                            </p>
+                        </div>
+                    </div> <!-- .prof-frex END -->
+                </div> <!-- .container END -->
+            </section>
+
+            <!-- お問い合わせ -->
+            <section id="contact">
+                <div class="container">
+                    <h2 class="ttl">
+                        <span class="en">Contact</span>
+                        <span class="jp">お問い合わせ</span>
+                    </h2>
+                    <p class="center-text">
+                        お問い合わせは、下記フォームからお願い致します。<br>
+                        送信完了後、Googleフォームの送信完了画面へ移動します。
+                    </p>
+                    <!-- フォーム -->
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf07xkKfSfjrQbt46i4EUX35s_wZxhk9KZRVArCv60NW9RDVA/formResponse">
+                        <div>
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="entry.1597136508" placeholder="例：菅野理香">
+                        </div>
+                        <div>
+                            <label for="email">メールアドレス</label>
+                            <input type="email" id="email" name="entry.1219015457" placeholder="例：abcd@example.co.jp">
+                        </div>
+                        <div>
+                            <label for="message">お問い合わせ内容</label>
+                            <textarea id="message" name="entry.954920625" placeholder="お問い合わせ内容をご入力ください。"></textarea>
+                        </div>
+                        <button class="btn form-btn" type="submit" name="button" value="送信する">送信する</button>
+                    </form>
+                </div> <!-- .container END -->
+            </section>
+
+            <!-- トップへ戻るボタン -->
+            <div id="page-top"><a href="#"></a></div>
+        </main>
+
+        <!-- フッター -->
+        <footer class="footer">
+            <p class="footer-text">© 2021 Rika Kanno</p>
+        </footer>
+
+        <!-- JS -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
