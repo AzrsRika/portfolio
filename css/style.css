@@ -420,8 +420,11 @@ td {
     .work-items .img {
         width: 100%;
     }
+    .work-items + .work-items {
+        margin-top: 30px;
+    }
     .text-item {
-        margin: 10px 0 20px;
+        margin-top: 10px;
     }
     .work_item p {
         text-align: center;
