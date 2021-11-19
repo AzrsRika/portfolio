@@ -221,8 +221,9 @@ main {
 }
 .skill-item {
     line-height: 1.8;
-    width: 500px;
-    height: 600px;
+    width: 28vw;
+    min-height: 600px;
+    height: auto;
     background-color: #fff;
     padding: 60px 30px;
 }
@@ -390,6 +391,12 @@ td {
 
 /* タブレット */
 @media(max-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+    .header .container {
+        width: 96%;
+    }
     /* Header */
     .logo {
         font-size: 28px;
@@ -411,7 +418,7 @@ td {
     }
     .work-items {
         display: block;
-        width: 65%;
+        width: 100%;
         margin: 0 auto;
     }
     .work-items .sub-ttl {
@@ -440,10 +447,11 @@ td {
         display: block;
     }
     #skill > .container {
-        width: 80%;
+        width: 60%;
         margin: 0 auto;
     }
     .skill-item {
+        width: 100%;
         padding: 70px 30px;
         margin-left: auto;
         margin-right: auto;
@@ -473,7 +481,7 @@ td {
     }
 
     /* work.html ----------------------------- */
-    .work_ > .container {
+    .work-all > .container {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -496,7 +504,7 @@ td {
 @media(max-width: 700px) {
     /* レイアウト */
     .container {
-        max-width: none;
+        width: 90%;
     }
     .flex {
         display: block;
@@ -558,7 +566,6 @@ td {
 
     /* Work */
     .work-items {
-        width: 80%;
         margin: 0 auto;
     }
     .sub-ttl {
@@ -590,6 +597,9 @@ td {
     }
 
     /* Profile */
+    #profile .container {
+        width: 70%;
+    }
     .prof-frex {
         display: block;
     }
@@ -601,12 +611,11 @@ td {
         width: 250px;
         height: 250px;
     }
+    .prof-text-area {
+        width: 100%;
+    }
 
     /* Contact */
-    #contact > .container {
-        width: 80%;
-        margin: 0 auto;
-    }
     #contact .center-text {
         font-size: 16px;
         text-align: start;
@@ -643,6 +652,7 @@ td {
     }
     .work_link {
         text-align: start;
+        font-size: 22px;
     }
     table {
         /* 英単語折り返す為の指定 */
