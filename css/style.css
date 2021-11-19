@@ -445,7 +445,11 @@ td {
     .skil-item {
         width: 70%;
         padding: 70px 30px;
-        margin: 50px auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skil-item + .skil-item {
+        margin-top: 30px;
     }
     /* profile */
     .prof-frex {
