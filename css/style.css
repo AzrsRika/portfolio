@@ -220,10 +220,9 @@ main {
     margin: 0 auto 30px;
 }
 .skill-item {
-    max-height: none;
-    min-height: 560px;
-    width: 30%;
-    min-width: 300px;
+    line-height: 1.8;
+    width: 500px;
+    height: 600px;
     background-color: #fff;
     padding: 60px 30px;
 }
@@ -374,6 +373,8 @@ table {
     text-align: start;
 }
 tr {
+    line-height: 1.8;
+
     display: block;
 }
 th {
@@ -443,7 +444,6 @@ td {
         margin: 0 auto;
     }
     .skill-item {
-        width: 70%;
         padding: 70px 30px;
         margin-left: auto;
         margin-right: auto;
@@ -556,7 +556,7 @@ td {
         display: block;
     }
 
-    /* work */
+    /* Work */
     .work-items {
         width: 80%;
         margin: 0 auto;
@@ -580,6 +580,8 @@ td {
     }
     .skill-item {
         width: 100%;
+        height: auto;
+        min-height: 600px;
         padding: 40px 20px;
         margin: 30px auto;
     }
