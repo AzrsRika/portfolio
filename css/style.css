@@ -15,6 +15,7 @@ li {
     max-width: 90%;
     margin: 0 auto;
 }
+
 /* 共通 */
 .top section {
     padding: 180px 0;
@@ -47,7 +48,7 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
-/* ボタン */
+/* Button */
 .btn {
     position: relative;
     display: inline-block;
@@ -78,6 +79,7 @@ main {
 .nav-list a:hover {
     opacity: .8;
 }
+
 /* TOPへ戻るボタン */
 #page-top {
     position: fixed;
@@ -108,7 +110,7 @@ main {
     -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
-/* ヘッダー */
+/* Header */
 .sp-header-nav {
     display: none;
 }
@@ -153,7 +155,7 @@ main {
 .nav-list li+li{
     border-left: 1px solid #928484;
 }
-/* ヘッダー お問い合わせ */
+/* Hader - Contact */
 .btn-ico {
     display: flex;
     width: 70%;
@@ -178,7 +180,7 @@ main {
     background-position: center bottom;
 }
 
-/* work */
+/* Work */
 .work-items {
     display: flex;
     flex-wrap: wrap;
@@ -208,16 +210,16 @@ main {
     margin-bottom: 10px;
 }
 
-/* skil */
-#skil {
+/* Skill */
+#skill {
     background-color: #FCECEA;
     -webkit-clip-path: polygon(0 0,100% 5%,100% 90%,0 100%);
     clip-path: polygon(0 0,100% 5%,100% 90%,0 100%);
 }
-#skil .sub-ttl {
+#skill .sub-ttl {
     margin: 0 auto 30px;
 }
-.skil-item {
+.skill-item {
     max-height: none;
     min-height: 560px;
     width: 30%;
@@ -228,25 +230,22 @@ main {
 .item + .item {
     margin-top: 10px;
 }
-.skil-item img {
+.skill-item img {
     width: 90px;
     height: auto;
 }
-.skil-item .img {
+.skill-item .img {
     border: none;
     margin-bottom: 30px;
 }
 .last-img {
     margin-bottom: 30px;
 }
-#skil .flex {
+#skill .flex {
     justify-content: space-between;
 }
-.study-skil {
+.study-skill {
     margin-top: 50px;
-}
-.skil-item_center-text {
-    font-style: 16px;
 }
 
 /* profile */
@@ -272,7 +271,7 @@ main {
     font-size: 24px;
 }
 
-/* contact */
+/* Contact */
 #contact {
     background-color: #FCECEA;
     -webkit-clip-path: polygon(0 0,100% 10%,100% 100%,0 100%);
@@ -310,7 +309,7 @@ textarea {
     color: #ccc;
 }
 
-/* footer */
+/* Footer */
 .footer {
     background: linear-gradient(90deg, #F99292, #ffbf7f);
     color: #fff;
@@ -390,7 +389,7 @@ td {
 
 /* タブレット */
 @media(max-width: 1024px) {
-    /* ヘッダー */
+    /* Header */
     .logo {
         font-size: 28px;
     }
@@ -402,7 +401,7 @@ td {
         width: 90%;
     }
 
-    /* work */
+    /* Work */
     .sub-ttl {
         margin-top: 0;
     }
@@ -429,29 +428,30 @@ td {
     .work_item p {
         text-align: center;
         margin: 10px 0 20px;
-    }    
-    /* skil */
-    #skil {
+    }
+
+    /* Skil */
+    #skill {
         -webkit-clip-path: polygon(0 0,100% 3%,100% 97%,0 100%);
         clip-path: polygon(0 0,100% 3%,100% 97%,0 100%);
     }
-    #skil .flex {
+    #skill .flex {
         display: block;
     }
-    #skil > .container {
+    #skill > .container {
         width: 80%;
         margin: 0 auto;
     }
-    .skil-item {
+    .skill-item {
         width: 70%;
         padding: 70px 30px;
         margin-left: auto;
         margin-right: auto;
     }
-    .skil-item + .skil-item {
+    .skill-item + .skill-item {
         margin-top: 30px;
     }
-    /* profile */
+    /* Profile */
     .prof-frex {
         display: block;
     }
@@ -507,6 +507,7 @@ td {
     .ttl {
         margin-bottom: 50px;
     }
+
     /* フォントサイズ */
     .en {
         font-size: 40px;
@@ -514,7 +515,8 @@ td {
     .jp {
         font-size: 14px;
     }
-    /* ヘッダー */
+
+    /* Header */
     .logo {
         font-size: 30px;
     }
@@ -530,7 +532,8 @@ td {
         top: 15px;
         right: 20px;
     }
-    /* ヘッダー　ドロワーメニュー */
+
+    /* ドロワーメニュー */
     .sp-nav-list {
         width: 0; /* ←通常時非表示 */
         position: absolute;
@@ -552,6 +555,7 @@ td {
     .sp-nav-list a {
         display: block;
     }
+
     /* work */
     .work-items {
         width: 80%;
@@ -561,19 +565,20 @@ td {
         font-size: 20px;
         margin: 0 0 20px;
     }
-    /* skil */
-    #skil > .container {
+
+    /* Skill */
+    #skill > .container {
         width: 80%;
         margin: 0 auto;
     }
-    #skil {
+    #skill {
         -webkit-clip-path: polygon(0 0,100% 2%,100% 98%,0 100%);
         clip-path: polygon(0 0,100% 2%,100% 98%,0 100%);
     }
-    #skil .flex {
+    #skill .flex {
         display: block;
     }
-    .skil-item {
+    .skill-item {
         width: 100%;
         padding: 40px 20px;
         margin: 30px auto;
@@ -581,7 +586,8 @@ td {
     .btn {
         margin-top: 40px;
     }
-    /* profile */
+
+    /* Profile */
     .prof-frex {
         display: block;
     }
@@ -593,7 +599,8 @@ td {
         width: 250px;
         height: 250px;
     }
-    /* contact */
+
+    /* Contact */
     #contact > .container {
         width: 80%;
         margin: 0 auto;
@@ -651,6 +658,5 @@ td {
         padding: 0 0 10px;
         width: 100%;
     }
-
 
 }
