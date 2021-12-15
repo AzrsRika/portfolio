@@ -480,6 +480,11 @@ td {
     .name p {
         text-align: center;
     }
+    /* Contact */
+    #contact {
+        -webkit-clip-path: polygon(0 0,100% 6%,100% 97%,0 100%);
+        clip-path: polygon(0 0,100% 6%,100% 97%,0 100%);
+    }
 
     /* work.html ----------------------------- */
     .work-all > .container {
@@ -624,8 +629,8 @@ td {
         text-align: start;
     }
     #contact {
-        -webkit-clip-path: polygon(0 0,100% 2%,100% 100%,0 100%);
-        clip-path: polygon(0 0,100% 2%,100% 100%,0 100%);
+        -webkit-clip-path: polygon(0 0,100% 6%,100% 98%,0 100%);
+        clip-path: polygon(0 0,100% 6%,100% 98%,0 100%);
     }
     input[type="text"], input[type="email"],textarea {
         width: 100%;
