@@ -215,7 +215,7 @@ main {
 #skill {
     background-color: #FCECEA;
     -webkit-clip-path: polygon(0 0,100% 5%,100% 90%,0 100%);
-    clip-path: polygon(0 0,100% 5%,100% 95%,0 100%);
+    clip-path: polygon(0 0,100% 5%,100% 90%,0 100%);
 }
 #skill .sub-ttl {
     margin: 0 auto 30px;
@@ -249,7 +249,7 @@ main {
     margin-top: 50px;
 }
 
-/* Profile */
+/* profile */
  .prof-frex {
     display: flex;
     justify-content: space-evenly;
@@ -275,8 +275,8 @@ main {
 /* Contact */
 #contact {
     background-color: #FCECEA;
-    -webkit-clip-path: polygon(0 0,100% 5%,100% 100%,0 100%);
-    clip-path: polygon(0 0,100% 5%,100% 100%,0 100%);
+    -webkit-clip-path: polygon(0 0,100% 10%,100% 100%,0 100%);
+    clip-path: polygon(0 0,100% 10%,100% 100%,0 100%);
 }
 .center-text {
     text-align: center;
@@ -480,11 +480,6 @@ td {
     .name p {
         text-align: center;
     }
-    /* Contact */
-    #contact {
-        -webkit-clip-path: polygon(0 0,100% 6%,100% 97%,0 100%);
-        clip-path: polygon(0 0,100% 6%,100% 97%,0 100%);
-    }
 
     /* work.html ----------------------------- */
     .work-all > .container {
@@ -622,15 +617,16 @@ td {
     }
 
     /* Contact */
+    #contact {
+        -webkit-clip-path: polygon(0 0,100% 6%,100% 100%,0 100%);
+        clip-path: polygon(0 0,100% 6%,100% 100%,0 100%);
+    }
+
     #contact .center-text {
         font-size: 16px;
     }
     #contact label {
         text-align: start;
-    }
-    #contact {
-        -webkit-clip-path: polygon(0 0,100% 6%,100% 98%,0 100%);
-        clip-path: polygon(0 0,100% 6%,100% 98%,0 100%);
     }
     input[type="text"], input[type="email"],textarea {
         width: 100%;
